@@ -53,7 +53,7 @@ my_instructions = instructions = """
 # --- Setup page ---
 st.set_page_config(page_title="Carbonify Chat", layout="centered")
 st.title("🌱Carbonify - किसानों का AI साथी")
-st.markdown("Ask anything about farming, soil, crops, or carbon farming practices.")
+st.markdown("कृषि, मिट्टी, फसलों या कार्बन खेती की प्रथाओं के बारे में कुछ भी पूछें।")
 
 # --- Initialize chat history ---
 if "chat_history" not in st.session_state:
